@@ -9,16 +9,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
-    padding: 10px 15px;
+    background: #478769;
+    padding: 20px 15px;
     border-bottom: 1px solid #ddd;
 }
 
-.logo img {
-    height: 30px;
+.logo.png {
+    margin:10px 2px;
 }
 
 .menu-btn {
+    color: white;
     font-size: 24px;
     background: none;
     border: none;
@@ -27,34 +28,44 @@ header {
 
 .categoria {
     padding: 15px;
+    margin: 1rem 1rem 0 1rem;
 }
 
 .tag {
     background: #3c8c5a;
     color: #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 9px;
     font-size: 14px;
 }
 
 article {
+ 
+    margin: 1.5rem;
     padding: 0 15px 30px 15px;
 }
 
 h1 {
     font-size: 20px;
-    margin-top: 5px;
+    margin: 5px 0 5px 0;
 }
+
+h2 { 
+     color: #478769;
+     padding: 0 15px;
+     margin-top: 4rem;
+   }
 
 blockquote {
     font-size: 16px;
     font-style: italic;
-    margin: 10px 0;
+    margin: 5px 0 35px;
 }
 
 p {
     font-size: 15px;
     line-height: 1.4;
+    margin: 15px 0 15px 0;
 }
 
 figure {
@@ -63,11 +74,26 @@ figure {
 
 figure img {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 3px;
 }
 
 figcaption {
     font-size: 12px;
     color: #555;
     margin-top: 5px;
+}
+
+.hr {
+margin: 10rem;
+}
+
+.footer {
+  background: #478769;
+  color: white;
+   padding: 40px 0 30px 35px;
+  font-size: 14px;
+}
+
+a { 
+   color: white;
 }
